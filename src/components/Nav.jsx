@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class Nav extends Component {
   render() {
     return (
@@ -8,12 +7,24 @@ class Nav extends Component {
 
         <nav>
           <ul>
-            <li><button className='navLinks btn btn-default'>Browse</button></li>
-            <li><button className='navLinks btn btn-default'>Games</button></li>
-            <li><button className='navLinks btn btn-default'>Badges</button></li>
-            <li><button className='navLinks btn btn-default'>Quibids</button></li>
-            <li><button className='navLinks btn btn-default'>Help</button></li>
-            <li><button className='navLinks btn btn-default'>Join Now!</button></li>
+            <li>
+              <button className='navLinks btn btn-default'>Browse</button>
+            </li>
+            <li>
+              <button className='navLinks btn btn-default'>Games</button>
+            </li>
+            <li>
+              <button className='navLinks btn btn-default'>Badges</button>
+            </li>
+            <li>
+              <button className='navLinks btn btn-default'>Quibids</button>
+            </li>
+            <li>
+              <button className='navLinks btn btn-default'>Help</button>
+            </li>
+            <li>
+              <button className='navLinks btn btn-default'>Join Now!</button>
+            </li>
           </ul>
         </nav>
 
